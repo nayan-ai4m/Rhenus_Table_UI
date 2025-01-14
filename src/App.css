@@ -1,0 +1,80 @@
+/* Table Styles */
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f3f5;
+  transition: background-color 0.3s ease;
+}
+
+/* Pagination */
+.pagination {
+  margin: 0;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.pagination .page-link {
+  color: #007bff;
+}
+
+.pagination .page-link:hover {
+  background-color: #e9ecef;
+  color: #0056b3;
+}
+
+/* Input and Button Styles */
+input[type="date"],
+input[type="text"] {
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+button {
+  border-radius: 4px;
+}
+
+/* Back Button */
+button.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+button.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+/* Header and Filter Area */
+h5 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.nayan {
+  /* background-color: black; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100vw;
+}
+
+.katiyara {
+  width: 70vw;
+}
